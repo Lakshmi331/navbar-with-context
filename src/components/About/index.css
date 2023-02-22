@@ -1,0 +1,51 @@
+.about-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-image {
+  height: 100px;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 32px;
+  }
+}
+
+.about-bg-dark {
+  background-color: #000000;
+}
+
+.about-bg-light {
+  background-color: #ffffff;
+}
+
+.about-text-dark {
+  color: #ffffff;
+}
+
+.about-text-light {
+  color: #1e293b;
+}
